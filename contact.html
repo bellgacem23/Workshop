@@ -1,0 +1,55 @@
+<html>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <form id="contact_form" name="contact_form" method="post"></form>
+    <head>
+    </head>
+<body>
+    
+    <header>
+        <h1> Université de Monastir </h1>
+        <nav>
+            <a href="Accueil.html">Accueil</a> |
+            <a href="Formation.html">Formation</a> |
+            <a href="Histoire.html">Histoire</a> |
+            <a href="Contact.html">Contact</a> |
+        </nav>
+    </header>
+    <center>
+        <h1>Contacter nous </h1>
+    <div class="mb-5 row">
+        <div class="col">
+            <label>Nom</label>
+            <input type="text" required maxlength="50" class="form-control" id="first_name" name="first_name">
+        </div>
+        <div class="col">
+            <label>Prenom</label>
+            <input type="text" required maxlength="50" class="form-control" id="last_name" name="last_name">
+        </div>
+    </div>
+    <div class="mb-5 row">
+        <div class="col">
+            <label for="email_addr">Email </label>
+            <input type="email" required maxlength="50" class="form-control" id="email_addr" name="email"
+                placeholder="name@example.com">
+        </div>
+        <div class="col">
+            <label for="phone_input">Télephone</label>
+            <input type="tel" required maxlength="50" class="form-control" id="phone_input" name="Phone"
+                placeholder="Phone">
+        </div>
+    </div>
+    <div class="mb-5">
+        <label for="message">Message</label>
+        <textarea class="form-control" id="message" name="message" rows="5"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary px-4 btn-lg">Envoyer</button>
+</form>
+</center>
+
+<footer>
+    <b>Email: </b>  um@um.rnu.tn <br>
+    <b>Tel:   </b> 73 462 853 - 73 462 907 <br> 
+&copy; 2023 Université Monastir - Tous droits réservés
+</footer>
+</html>
+</body>
